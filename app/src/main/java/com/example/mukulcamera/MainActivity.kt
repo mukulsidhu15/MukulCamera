@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var cameraExecutors: ExecutorService
     private var videoCapture: VideoCapture<Recorder>? = null
     private var recording: Recording? = null
+    var s= "Mukul"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
